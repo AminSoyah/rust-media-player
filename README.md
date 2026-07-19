@@ -16,34 +16,7 @@ La doc peut être générée avec (et ouverte) avec `cargo doc (--open)`.
 
 Les tests sont exécutés avec la commande `cargo test`.
 
-### Arborescence du projet 
-
-- data_samples (Fichiers audio pour tester l'application sans importer de fichier)
-    - 440 Hz (10 seconds of A).mp3 
-    - chill_lofi_piano.mp3
-    - sample-2.ogg
-    - sample-3.wav 
-    - test.mp3
-- src 
-    - fileReader.rs 
-    - lib.rs 
-    - main.rs 
-    - play.rs
-    - read.rs 
-    - slint_logic.rs 
-    - volume.rs 
-- tests (les tests de slint_logic sont définis dans un module du fichier)
-    - fileReader_tests.rs 
-    - volume_tests.rs 
-    - play_tests.ts 
-- ui (Composant Slint)
-    - app-window.slint
-- build.rs (Fichier permettant de compiler le composant Slint)
-- Cargo.toml (Métadata sur le fichier et dépendences) 
-- Cargo.lock (Sous-dépendences) 
-
 ## UI 
-
 
 ### Contenu de l'UI
 
