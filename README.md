@@ -6,7 +6,7 @@
 **Dépôt du projet de COA pour l'année 2025-2026.** 
 
 ## Projet 
-
+Un lecteur audio développé en Rust avec une interface graphique Slint. Support des formats MP3, WAV et OGG, lecture en streaming, architecture multi-thread avec canal mpsc pour séparer l'UI du thread audio.
 ### Commandes 
 
 Le projet peut-être compilé avec `cargo run`.
